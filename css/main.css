@@ -1,0 +1,38 @@
+main{
+    padding: 7px;
+}
+article {
+    display: flex;
+    flex-direction: column; 
+}
+.presentation{
+    padding: 0 1em 0 1em;
+}
+.image {
+    width:100%;
+    border-radius: 5% 5% 0% 0%;
+    height:auto;
+  }
+.slogan {
+    margin: 1em;
+    color: var(--text-color-tertiary);
+    font-size: small;
+    letter-spacing: 3px;
+    text-align: center;
+ 
+    
+  }
+  .title {
+    font-family: 'Fraunces', serif;
+    font-size: x-large;
+    color: var(--text-color-title);
+    line-height: 34px;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .description {
+    color:var(--text-color-tertiary);
+    font-size: 0.95em;
+    line-height: 22px;
+    text-align: justify;
+  }
