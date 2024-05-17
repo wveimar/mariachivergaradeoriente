@@ -37,7 +37,7 @@
       ),
       url("../assets/portada.JPEG");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
   }
   
@@ -57,11 +57,12 @@
   
   header h1 {
     font-size: 6vw;
+    margin-top: 1em;
   }
   
   header h3 {
     font-size: 3vw;
-    margin-top: 1em;
+
   }
   
   header h2 {
@@ -71,7 +72,7 @@
     letter-spacing: 3px;
   }
   
-  @media (max-width: 400px) {
+  @media (max-width: 460px) {
     header {
       height: 21vh;
     }
