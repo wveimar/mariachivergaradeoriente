@@ -15,7 +15,7 @@ footer {
 .container__footer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   max-width: 1200px;
   margin: auto;
 }
@@ -31,7 +31,7 @@ footer {
 }
 
 .box__footer h2 {
-  margin-bottom: 30px;
+  margin: 30px 0 20px 0;
   color: #343434;
   font-weight: 700;
 }
@@ -42,7 +42,12 @@ footer {
   font-weight: 600;
 }
 
-.box__footer p {
+.box__footer p  {
+  margin-top: 10px;
+  color: #7a7a7a;
+}
+
+.box__footer ul  {
   margin-top: 10px;
   color: #7a7a7a;
 }

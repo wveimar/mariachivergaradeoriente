@@ -26,10 +26,10 @@
   
   body {
     background-color: var(--body-color);
+    max-width: 1200px;
   }
   
   header {
-    height: 70vh;
     background-image: linear-gradient(
         0deg,
         rgba(0, 0, 0, 0.5),
@@ -37,8 +37,8 @@
       ),
       url("../assets/portada.JPEG");
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
+    background-size: cover;
+   
   }
   
   .header__image {
@@ -73,9 +73,7 @@
   }
   
   @media (max-width: 460px) {
-    header {
-      height: 21vh;
-    }
+ 
   
     header h1 {
       font-size: 5vw;
