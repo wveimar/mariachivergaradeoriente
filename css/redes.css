@@ -5,7 +5,30 @@
     flex-wrap: wrap;
     border-radius: 2%;
   }
-  
+.btn-float .btn{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: #29434e;
+    padding: 15px 25px;
+    border-radius: 20px;
+    color: #fff;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    z-index: 99;
+
+    
+}
+
+ .btn-float .btn:hover{
+  color: #25d366;
+box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.5);
+transform: translateY(-7px);
+}
   .redes .iconos {
     display: flex;
     border-radius: 2%;
