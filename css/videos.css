@@ -33,7 +33,7 @@
 
 /* Controla el tamaño del contenedor de video */
 #nuestros-videos .video {
-  aspect-ratio: 16 / 9; /* Relación de aspecto de 16:9 */
+  aspect-ratio: 9 / 16; /* Relación de aspecto de 16:9 */
   
 }
 
