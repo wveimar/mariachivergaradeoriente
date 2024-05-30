@@ -36,3 +36,10 @@ article {
     line-height: 22px;
     text-align: justify;
   }
+  .repertorio {
+    color:var(--text-color-tertiary);
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+
+  }

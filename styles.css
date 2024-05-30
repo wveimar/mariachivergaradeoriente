@@ -6,6 +6,7 @@
 @import url("./css/gallery.css");
 @import url("./css/main.css");
 @import url("./css/redes.css");
+@import url("./css/paquetes.css");
 /* Estilos globales o compartidos */
 :root {
     --main-font: "Montserrat", "Fraunces", Arial, serif, sans-serif;
