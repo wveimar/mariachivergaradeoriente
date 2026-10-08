@@ -1,420 +1,589 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-CO">
 
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+
+  <!-- SEO -->
+  <title>Mariachi Vergara de Oriente | Mariachis en Marinilla y Oriente Antioqueño</title>
   <meta name="description"
-    content="Mariachis Oriente - Alegra tus momentos importantes con el mejor repertorio en música mexicana. Músicos de calidad para eventos sociales, bodas y más." />
-  <meta name="keywords" content="mariachis, música mexicana, eventos sociales, bodas, serenatas, música en vivo" />
-  <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+    content="Mariachi Vergara de Oriente: serenatas, bodas, cumpleaños y eventos en Marinilla, Rionegro y todo el Oriente Antioqueño. Músicos profesionales desde 2016, sonido amplificado y pago con tarjeta. ¡Reserva por WhatsApp!" />
+  <meta name="keywords"
+    content="mariachi Marinilla, mariachis Rionegro, mariachi Oriente Antioqueño, serenatas Marinilla, mariachi para bodas Antioquia, mariachi cumpleaños, música mexicana en vivo, mariachi El Carmen de Viboral, mariachi Guarne, mariachi La Ceja" />
+  <meta name="author" content="Mariachi Vergara de Oriente" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="theme-color" content="#0d0709" />
+  <meta name="geo.region" content="CO-ANT" />
+  <meta name="geo.placename" content="Marinilla, Antioquia" />
+  <link rel="canonical" href="https://wveimar.github.io/mariachivergaradeoriente/" />
+
+  <!-- Open Graph (WhatsApp, Facebook, Instagram) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_CO" />
+  <meta property="og:site_name" content="Mariachi Vergara de Oriente" />
+  <meta property="og:title" content="Mariachi Vergara de Oriente | Serenatas y eventos en el Oriente Antioqueño" />
+  <meta property="og:description"
+    content="Tradición y alegría en tus momentos más importantes. Serenatas, bodas, cumpleaños y quinces desde 2016. Reserva por WhatsApp." />
+  <meta property="og:url" content="https://wveimar.github.io/mariachivergaradeoriente/" />
+  <meta property="og:image" content="https://wveimar.github.io/mariachivergaradeoriente/assets/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Los integrantes de Mariachi Vergara de Oriente con trajes de charro y sombreros blancos" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Mariachi Vergara de Oriente" />
+  <meta name="twitter:description" content="Serenatas, bodas y eventos en todo el Oriente Antioqueño desde 2016." />
+  <meta name="twitter:image" content="https://wveimar.github.io/mariachivergaradeoriente/assets/og-image.jpg" />
+
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <link rel="apple-touch-icon" href="assets/logo.png" />
+
+  <!-- Fuentes e íconos -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Montserrat:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>Mariachis Vergara de Oriente- El Mejor Repertorio En Música Mexicana</title>
+  <link rel="preload" as="image" href="assets/portada.JPEG" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>document.documentElement.classList.add("js");</script>
+
+  <!-- Datos estructurados para Google (negocio local) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["MusicGroup", "LocalBusiness"],
+    "name": "Mariachi Vergara de Oriente",
+    "url": "https://wveimar.github.io/mariachivergaradeoriente/",
+    "image": "https://wveimar.github.io/mariachivergaradeoriente/assets/og-image.jpg",
+    "logo": "https://wveimar.github.io/mariachivergaradeoriente/assets/logo.png",
+    "description": "Mariachi profesional para serenatas, bodas, cumpleaños y eventos en el Oriente Antioqueño desde 2016.",
+    "genre": "Mariachi",
+    "foundingDate": "2016",
+    "telephone": "+57 319 675 4109",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Marinilla",
+      "addressRegion": "Antioquia",
+      "addressCountry": "CO"
+    },
+    "areaServed": ["Marinilla", "Rionegro", "El Santuario", "Guarne", "La Ceja", "El Carmen de Viboral", "Oriente Antioqueño"],
+    "paymentAccepted": "Efectivo, Tarjeta de crédito",
+    "sameAs": [
+      "https://www.instagram.com/mariachivergaradeo/",
+      "https://www.facebook.com/henrya.vergaraz",
+      "https://www.tiktok.com/@mariachi.vergara"
+    ]
+  }
+  </script>
 </head>
 
 <body>
-  <header>
-    <div class="header__image">
-      <h1>Mariachi Vergara de Oriente</h1>
-      <h3>Desde 2016</h3>
-      <h2>"Tradición y alegría en tus momentos más importantes"</h2>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- ================= ENCABEZADO ================= -->
+  <header class="site-header" id="inicio">
+    <nav class="nav" aria-label="Navegación principal">
+      <a class="nav__brand" href="#inicio" aria-label="Mariachi Vergara de Oriente, ir al inicio">
+        <span>Mariachi Vergara <em>de Oriente</em></span>
+      </a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu"
+        aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__menu" id="menu">
+        <li><a href="#paquetes">Paquetes</a></li>
+        <li><a href="#equipo">Equipo</a></li>
+        <li><a href="#repertorio">Repertorio</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a class="nav__cta"
+            href="https://wa.me/573196754109?text=Hola,%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n."
+            target="_blank" rel="noopener">Reservar</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero">
+      <p class="hero__eyebrow">Desde 2016 · Oriente Antioqueño</p>
+      <h1 class="hero__title">Mariachi Vergara <span>de Oriente</span></h1>
+      <p class="hero__tagline">Tradición y alegría en tus momentos más importantes</p>
+      <div class="hero__actions">
+        <a class="btn btn--gold"
+          href="https://wa.me/573196754109?text=Hola,%20quiero%20reservar%20una%20serenata."
+          target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Reservar serenata</a>
+        <a class="btn btn--ghost" href="#paquetes">Ver paquetes</a>
+      </div>
     </div>
   </header>
-  <main>
-    <article>
-      <section class="redes">
-        <div class="btn-float">
-          <a href="https://wa.me/+573196754109?text=Hola,%20me%20gustaría%20obtener%20más%20información."
-            target="_blank" class="btn"><i class='bx bxl-whatsapp'></i> </a>
-        </div>
-        <h2 class="title" style="color: beige;">Redes sociales</h2>
-        <p class="slogan">¨Síguenos para más en todas nuestras redes sociales.</p>
-        <div class="iconos">
-          <div class="icon">
 
-            <a href="https://www.instagram.com/mariachivergaradeo?igsh=MTFrajF2djljazAyNQ==">
-              <svg>
-                <circle cx="40" cy="40" r=25 stroke="white" stroke-width="4" fill="none"></circle>
-              </svg>
-              <i class='bx bxl-instagram'></i>
-            </a>
-          </div>
+  <main id="contenido">
 
-          <div class="icon">
-            <a href="https://www.facebook.com/henrya.vergaraz?sfnsn=scwspmo&mibextid=RUbZ1f">
-              <svg>
-                <circle cx="40" cy="40" r=25 stroke="white" stroke-width="4" fill="none"></circle>
-              </svg>
-              <i class='bx bxl-facebook-circle'></i></a>
-          </div>
-
-          <div class="icon">
-            <a href="https://wa.me/+573196754109?text=Hola,%20me%20gustaría%20obtener%20más%20información.">
-              <svg>
-                <circle cx="40" cy="40" r=25 stroke="white" stroke-width="4" fill="none"></circle>
-              </svg>
-              <i class='bx bxl-whatsapp'></i></a>
-          </div>
-
-          <div class="icon">
-            <a href="https://www.tiktok.com/@mariachi.vergara?_t=8m9yt0hLycP&_r=1">
-              <svg>
-                <circle cx="40" cy="40" r=25 stroke="white" stroke-width="4" fill="none"></circle>
-              </svg>
-              <i class="fa-brands fa-tiktok"></i></a>
-          </div>
-        </div>
-      </section>
-      <img class="image" src="assets/image.JPEG" alt="foto" />
-      <p class="slogan"> "El alma de México en cada nota."</p>
-      <div class="presentation">
-        <p class="title">
-          ¡Paga tus serenatas con la facilidad de tu tarjeta!
-        </p>
-        <p class="description">
-          Aceptamos pagos con tarjetas de crédito para que puedas disfrutar de la música de mariachi en cualquier
-          ocasión sin preocupaciones.
-          ¡Reserva tu serenata ahora y deja que la música llene tu corazón mientras nosotros nos encargamos del pago!"
-        </p>
-        <img class="image" src="assets/pago.jpeg" alt="foto" />
-      </div>
-    </article>
-
-    <section class="paquetes">
-      <h2 class="title">Paquetes</h2>
-      <h3 class="slogan">todos nuestros paquetes Incluyen:</h3>
-      <br>
-      <ul class="slogan">
-        <li>2 canciones de encima</li>
-        <li>1 son mexicano de entrada</li>
-        <li>1 son mexicano de salida</li>
-        <li>Happy Birthday</li>
-        <li>Transporte</li>
-        <li>Amplificación para todos los instrumentos. </li>
-      </ul>
-      <div class="wrap column-3 columns">
-        <div class="tarjeta-rest" style="background: url(assets/foto1.JPEG) center; background-size: cover;">
-          <div class="wrap-text_tarjeta-rest">
-            <h3>PAQUETE ECONÓMICO
-            </h3>
-            <p>Incluye:</p>
-
-            <ul>
-              <li>5 integrantes</li>
-              <li>5 canciones</li>
-            </ul>
-            <div class="cta-wrap_tarjeta-rest">
-              <div class="precio_tarjeta-rest">
-                <span>A partir de 400 mil</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="tarjeta-rest" style="background: url(assets/foto2.JPEG) center; background-size: cover;">
-          <div class="wrap-text_tarjeta-rest">
-            <h3>PAQUETE STANDAR
-            </h3>
-            <p>Incluye:</p>
-
-            <ul>
-              <li>7 integrantes</li>
-              <li>5 canciones</li>
-            </ul>
-            <div class="cta-wrap_tarjeta-rest">
-              <div class="precio_tarjeta-rest">
-                <span>A partir de 500 mil</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="tarjeta-rest" style="background: url(assets/foto3.JPEG) center; background-size: cover;">
-          <div class="wrap-text_tarjeta-rest">
-            <h3>PAQUETE PREMIUM
-            </h3>
-            <p>Incluye:</p>
-
-            <ul>
-              <li>10 integrantes</li>
-              <li>5 canciones</li>
-            </ul>
-            <div class="cta-wrap_tarjeta-rest">
-              <div class="precio_tarjeta-rest">
-                <span>A partir de 700 mil</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="carrusel">
-      <ul>
-        <li>
-          <img src="assets/carrusel1.JPEG" alt="">
-        </li>
-        <li>
-          <img src="assets/carrusel1.JPEG" alt="">
-        </li>
-        <li>
-          <img src="assets/carrusel1.JPEG" alt="">
-        </li>
-        <li>
-          <img src="assets/carrusel1.JPEG" alt="">
-        </li>
-      </ul>
-    </section>
-      <h2 class="title">
-        El mejor repertorio en música mexicana.
-      </h2>
-      <p class="description">
-        Presentamos a nuestro mariachi profesional, listo para llenar tú lugar con la música y
-        el encanto de México. ¡Disfruten de una experiencia musical única!.
-      </p>
-      <p class="description">
-        Músicos de calidad con impecable presentación. Amenizamos toda clase
-        de eventos sociales, empresariales, serenatas, bodas, cumpleaños,
-        en todo el oriente antioqueño.
-
-      </p>
-     
-      <h4 class="title">Cumpleaños:</h4>
-      <ul class="repertorio">
-        <li>En tu día</li>
-        <li>Las mañanitas</li>
-        <li>Nochesitas mexicanas</li>
-        <li>Mañanitas mexicanas</li>
-        <li>Felicidades</li>
-        <li> Tu cumpleaños</li>
-      </ul>
-      <h4 class="title">Mamá :</h4>
-      <ul class="repertorio">
-        <li>Clavelitos con amor</li>
-        <li>Regalo de un hijo</li>
-        <li>A la sombra de mamá</li>
-        <li>Es mi madre</li>
-        <li>Madre son cinco letras</li>
-        <li>A esa mujer</li>
-        <li>Mama vieja</li>
-        <li>Aunque no sea mayo</li>
-
-      </ul>
-      <h4 class="title">Papá :</h4>
-      <ul class="repertorio" >
-        <li>Cuando quería ser grande</li>
-        <li>Mi viejo</li>
-        <li>El rey</li>
-        <li>Mi querido cascarabias</li>
-      </ul>
-      <h4 class="title">Quinces :</h4>
-      <ul class="repertorio">
-        <li>Ha llegado un ángel</li>
-        <li>Quince primavera </li>
-        <li>Mi niña bonita </li>
-        <li>Quinceañera llanera</li>
-        <li>Tus quince Yony rivera </li>
-        <li>Quinceañera llanera</li>
-        <li>Quinceañera llanera</li>
-        <li>Quinceañera llanera</li>
-      </ul>
-      <h4 class="title">Amor :</h4>
-      <ul class="repertorio">
-        <li>Por mujeres como tú</li>
-        <li>Esclavo y amo</li>
-        <li>Cómo han pasado los años </li>
-        <li>Luz de luna</li>
-        <li>Serenata huasteca </li>
-        <li>Alma corazón y vida </li>
-        <li>Contigo aprendí </li>
-        <li>Te amare toda la vida</li>
-        <li>Un millón de primaveras </li>
-        <li>Besame mucho</li>
-        <li>En tu pelo</li>
-        <li>Me gustas</li>
-        <li>Besame mucho</li>
-        <li>Cielito lindo </li>
-        <li>A la antiguita</li>
-        <li>Sublime mujer </li>
-        <li>El amor más grande del planeta </li>
-        <li>Para siempre </li>
-        <li>Motivos</li>
-      </ul>
-   
-    </div>
-
-    <section id="nuestros-videos">
-      <div class="container">
-        <h2 class="title" style="color: beige;">Nuestros videos</h2>
-        <p class="slogan">¨Encuentra lo mejor de nuestro repertorio¨.</p>
-        <ul class="videos">
-          <li class="video">
-            <video class="inframe" controls>
-              <source src="assets/video4.mp4" type="video/mp4">
-            </video>
-          </li>
-          <li class="video">
-            <video class="inframe" controls>
-              <source src="assets/video4.mp4" type="video/mp4">
-            </video>
-          </li>
-          <li class="video">
-            <video class="inframe" controls>
-              <source src="assets/video4.mp4" type="video/mp4">
-            </video>
-          </li>
-        </ul>
-      </div>
-      <div class="container">
-        <h2 class="title" style="color: beige;">Recomendaciones de famosos</h2>
-        <p class="slogan">¨somos los mejores del oriente antioqueño¨.</p>
-        <ul class="videos">
-          <li class="video">
-            <video class="inframe" controls>
-              <source src="assets/video1.mp4" type="video/mp4">
-            </video>
-          </li>
-          <li class="video">
-            <video class="inframe" controls>
-              <source src="assets/video2.mp4" type="video/mp4">
-            </video>
-          </li>
-          <li class="video">
-            <video class="inframe" controls>
-              <source src="assets/video3.mp4" type="video/mp4">
-            </video>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="fotos">
-      <div class="in-flex">
-        <h2 class="title">Fotos</h2>
-        <p class="slogan">Aquí encontrarás nuestras fotos destacadas.</p>
-        <span class="linea"></span>
-        <section class="photo-gallery">
-          <ul class="imagenes">
-            <li class="image">
-
-              <a href="#image1">
-                <img src="assets/foto1.JPEG" alt="Foto 1" />
-              </a>
-            </li class="image">
-            <li>
-
-              <a href="#image2">
-                <img src="assets/foto2.JPEG" alt="Foto 2" />
-              </a>
-            </li>
-            <li class="image">
-              <a href="#image3">
-                <img src="assets/foto3.JPEG" alt="Foto 3" />
-              </a>
-
-            </li>
-            <li class="image">
-
-              <a href="#image4">
-                <img src="assets/foto4.JPEG" alt="Foto 4" />
-              </a>
-            </li>
+    <!-- ================= PRESENTACIÓN ================= -->
+    <section class="section intro" aria-labelledby="intro-title">
+      <div class="container intro__grid">
+        <figure class="intro__media reveal">
+          <img src="assets/image.JPEG" alt="Mariachi Vergara de Oriente interpretando una serenata en vivo"
+            loading="lazy" decoding="async" />
+        </figure>
+        <div class="intro__text reveal">
+          <p class="eyebrow">El alma de México en cada nota</p>
+          <h2 class="section__title" id="intro-title">El mejor repertorio en música mexicana</h2>
+          <p>Presentamos a nuestro mariachi profesional, listo para llenar tu lugar con la música y el encanto de
+            México. ¡Disfruta de una experiencia musical única!</p>
+          <p>Músicos de calidad con impecable presentación. Amenizamos toda clase de eventos sociales,
+            empresariales, serenatas, bodas y cumpleaños en todo el Oriente Antioqueño.</p>
+          <ul class="features">
+            <li><i class="fa-solid fa-award" aria-hidden="true"></i> Más de 8 años de trayectoria</li>
+            <li><i class="fa-solid fa-volume-high" aria-hidden="true"></i> Todos los instrumentos amplificados</li>
+            <li><i class="fa-solid fa-van-shuttle" aria-hidden="true"></i> Transporte incluido</li>
+            <li><i class="fa-regular fa-credit-card" aria-hidden="true"></i> Pago con tarjeta de crédito</li>
           </ul>
-        </section>
-        <article class="light-box" id="image1">
-          <a href="#image4" class="next"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
-          <image src="assets/foto1.JPEG" alt="foto1"></image>
-          <a href="#image2" class="next"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-          <a href="#" class="close">x</a>
-        </article>
-        <article class="light-box" id="image2">
-          <a href="#image1" class="next"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
-          <image src="assets/foto2.JPEG" alt="foto2"></image>
-          <a href="#image3" class="next"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-          <a href="#" class="close">x</a>
-        </article>
-        <article class="light-box" id="image3">
-          <a href="#image2" class="next"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
-          <image src="assets/foto3.JPEG" alt="foto3"></image>
-          <a href="#image4" class="next"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-          <a href="#" class="close">x</a>
-        </article>
-        <article class="light-box" id="image4">
-          <a href="#image3" class="next"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
-          <image src="assets/foto4.JPEG" alt="foto4"></image>
-          <a href="#image1" class="next"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-          <a href="#" class="close">x</a>
-        </article>
+        </div>
       </div>
     </section>
-    <section class="team">
-      <h2 class="title">Nuestro equipo de profesionales</h2>
-      <p class="slogan">"¡Les presentamos a nuestro talentoso equipo de mariachis profesionales. Con su pasión por la
-        música y su habilidad para animar cualquier evento, están listos para hacer de esta ocasión algo inolvidable.
-        ¡Disfruten de la música y la alegría que traen consigo!"</p>
-      <section class="fotosImage">
-        <img src="assets/team6.jpeg" alt="">
-        <img src="assets/team7.jpeg" alt="">
-        <img src="assets/team1.jpeg" alt="">
-        <img src="assets/team2.jpeg" alt="">
-        <img src="assets/team3.jpeg" alt="">
-        <img src="assets/team4.jpeg" alt="">
-        <img src="assets/team5.jpeg" alt="">
-      </section>
+
+    <!-- ================= REDES SOCIALES ================= -->
+    <section class="section social" id="redes" aria-labelledby="redes-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Comunidad</p>
+          <h2 class="section__title" id="redes-title">Síguenos en redes</h2>
+          <p class="section__lead">Videos, serenatas y presentaciones nuevas cada semana.</p>
+        </header>
+        <ul class="social__list">
+          <li class="reveal">
+            <a class="social__card social__card--instagram" href="https://www.instagram.com/mariachivergaradeo/"
+              target="_blank" rel="noopener" aria-label="Instagram de Mariachi Vergara de Oriente">
+              <span class="social__icon"><i class="fa-brands fa-instagram" aria-hidden="true"></i></span>
+              <span class="social__text"><strong>Instagram</strong><small>@mariachivergaradeo</small></span>
+              <i class="fa-solid fa-arrow-right social__arrow" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="reveal">
+            <a class="social__card social__card--facebook" href="https://www.facebook.com/henrya.vergaraz"
+              target="_blank" rel="noopener" aria-label="Facebook de Mariachi Vergara de Oriente">
+              <span class="social__icon"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></span>
+              <span class="social__text"><strong>Facebook</strong><small>Henry Vergara</small></span>
+              <i class="fa-solid fa-arrow-right social__arrow" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="reveal">
+            <a class="social__card social__card--tiktok" href="https://www.tiktok.com/@mariachi.vergara"
+              target="_blank" rel="noopener" aria-label="TikTok de Mariachi Vergara de Oriente">
+              <span class="social__icon"><i class="fa-brands fa-tiktok" aria-hidden="true"></i></span>
+              <span class="social__text"><strong>TikTok</strong><small>@mariachi.vergara</small></span>
+              <i class="fa-solid fa-arrow-right social__arrow" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="reveal">
+            <a class="social__card social__card--whatsapp"
+              href="https://wa.me/573196754109?text=Hola,%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n."
+              target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+              <span class="social__icon"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></span>
+              <span class="social__text"><strong>WhatsApp</strong><small>+57 319 675 4109</small></span>
+              <i class="fa-solid fa-arrow-right social__arrow" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= PAQUETES ================= -->
+    <section class="section packages" id="paquetes" aria-labelledby="paquetes-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Serenatas</p>
+          <h2 class="section__title" id="paquetes-title">Paquetes</h2>
+          <p class="section__lead">Todos nuestros paquetes incluyen:</p>
+        </header>
+        <ul class="includes reveal">
+          <li>2 canciones de encima</li>
+          <li>1 son mexicano de entrada</li>
+          <li>1 son mexicano de salida</li>
+          <li>Happy Birthday</li>
+          <li>Transporte</li>
+          <li>Amplificación para todos los instrumentos</li>
+        </ul>
+
+        <div class="packages__grid">
+          <article class="package tilt reveal">
+            <img class="package__bg" src="assets/foto1.JPEG"
+              alt="Mariachi Vergara de Oriente en una serenata del paquete económico" loading="lazy" decoding="async" />
+            <div class="package__body tilt__inner">
+              <h3>Económico</h3>
+              <ul>
+                <li>5 integrantes</li>
+                <li>5 canciones</li>
+              </ul>
+            </div>
+            <span class="tilt__glare" aria-hidden="true"></span>
+          </article>
+          <article class="package package--featured tilt reveal">
+            <img class="package__bg" src="assets/foto2.JPEG"
+              alt="Mariachi Vergara de Oriente en una serenata del paquete estándar" loading="lazy" decoding="async" />
+            <div class="package__body tilt__inner">
+              <span class="badge">Más pedido</span>
+              <h3>Estándar</h3>
+              <ul>
+                <li>7 integrantes</li>
+                <li>5 canciones</li>
+              </ul>
+            </div>
+            <span class="tilt__glare" aria-hidden="true"></span>
+          </article>
+          <article class="package tilt reveal">
+            <img class="package__bg" src="assets/foto3.JPEG"
+              alt="Mariachi Vergara de Oriente en una serenata del paquete premium" loading="lazy" decoding="async" />
+            <div class="package__body tilt__inner">
+              <h3>Premium</h3>
+              <ul>
+                <li>10 integrantes</li>
+                <li>5 canciones</li>
+              </ul>
+            </div>
+            <span class="tilt__glare" aria-hidden="true"></span>
+          </article>
+        </div>
+
+        <aside class="payment reveal" aria-labelledby="pago-title">
+          <div class="payment__text">
+            <h3 id="pago-title"><i class="fa-regular fa-credit-card" aria-hidden="true"></i> Paga tus serenatas con tarjeta</h3>
+            <p>Aceptamos tarjetas de crédito para que disfrutes de la música de mariachi en cualquier ocasión, sin
+              preocupaciones. Reserva tu serenata y deja que la música llene tu corazón.</p>
+          </div>
+          <img src="assets/pago.jpeg" alt="Medios de pago aceptados: tarjetas de crédito" loading="lazy"
+            decoding="async" />
+        </aside>
+      </div>
+    </section>
+
+    <!-- ================= EQUIPO ================= -->
+    <section class="section team" id="equipo" aria-labelledby="equipo-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Nuestro equipo</p>
+          <h2 class="section__title" id="equipo-title">Músicos profesionales</h2>
+          <p class="section__lead">Pasión por la música mexicana y la experiencia para hacer de tu ocasión algo
+            inolvidable.</p>
+        </header>
+
+        <ul class="team__grid">
+          <li class="member tilt reveal">
+            <figure class="tilt__inner">
+              <img src="assets/equipo/violinista.webp" width="720" height="960" loading="lazy" decoding="async"
+                alt="Violinista de Mariachi Vergara de Oriente con traje de charro negro, sombrero blanco y violín" />
+              <figcaption><span class="member__role">Violín</span><span class="member__tag">Melodía y armonía</span></figcaption>
+            </figure>
+            <span class="tilt__glare" aria-hidden="true"></span>
+          </li>
+          <li class="member tilt reveal">
+            <figure class="tilt__inner">
+              <img src="assets/equipo/vihuelista.webp" width="720" height="960" loading="lazy" decoding="async"
+                alt="Vihuelista de Mariachi Vergara de Oriente con traje de charro bordado en plata y vihuela" />
+              <figcaption><span class="member__role">Vihuela</span><span class="member__tag">Ritmo y alegría</span></figcaption>
+            </figure>
+            <span class="tilt__glare" aria-hidden="true"></span>
+          </li>
+          <li class="member tilt reveal">
+            <figure class="tilt__inner">
+              <img src="assets/equipo/voz-principal.webp" width="720" height="960" loading="lazy" decoding="async"
+                alt="Cantante principal de Mariachi Vergara de Oriente con camisa negra bordada y pantalón rojo" />
+              <figcaption><span class="member__role">Voz principal</span><span class="member__tag">Director</span></figcaption>
+            </figure>
+            <span class="tilt__glare" aria-hidden="true"></span>
+          </li>
+          <li class="member tilt reveal">
+            <figure class="tilt__inner">
+              <img src="assets/equipo/guitarronero.webp" width="720" height="960" loading="lazy" decoding="async"
+                alt="Guitarronero de Mariachi Vergara de Oriente con traje de charro negro y guitarrón" />
+              <figcaption><span class="member__role">Guitarrón</span><span class="member__tag">El bajo del mariachi</span></figcaption>
+            </figure>
+            <span class="tilt__glare" aria-hidden="true"></span>
+          </li>
+          <li class="member tilt reveal">
+            <figure class="tilt__inner">
+              <img src="assets/equipo/trompetista.webp" width="720" height="960" loading="lazy" decoding="async"
+                alt="Trompetista de Mariachi Vergara de Oriente con traje de charro negro y trompeta dorada" />
+              <figcaption><span class="member__role">Trompeta</span><span class="member__tag">Segunda trompeta</span></figcaption>
+            </figure>
+            <span class="tilt__glare" aria-hidden="true"></span>
+          </li>
+          <li class="member tilt reveal">
+            <figure class="tilt__inner">
+              <img src="assets/equipo/trompetista-principal.webp" width="720" height="960" loading="lazy"
+                decoding="async"
+                alt="Primera trompeta de Mariachi Vergara de Oriente con traje de charro negro, botonadura de plata y trompeta" />
+              <figcaption><span class="member__role">Trompeta</span><span class="member__tag">Primera trompeta</span></figcaption>
+            </figure>
+            <span class="tilt__glare" aria-hidden="true"></span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= REPERTORIO ================= -->
+    <section class="section repertoire" id="repertorio" aria-labelledby="repertorio-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Para cada ocasión</p>
+          <h2 class="section__title" id="repertorio-title">Repertorio</h2>
+          <p class="section__lead">Algunas de las canciones más pedidas. Pregúntanos por tu favorita.</p>
+        </header>
+        <div class="repertoire__list">
+          <details class="songs reveal" open>
+            <summary><h3>Cumpleaños</h3><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></summary>
+            <ul>
+              <li>En tu día</li>
+              <li>Las mañanitas</li>
+              <li>Nochecitas mexicanas</li>
+              <li>Mañanitas mexicanas</li>
+              <li>Felicidades</li>
+              <li>Tu cumpleaños</li>
+            </ul>
+          </details>
+          <details class="songs reveal">
+            <summary><h3>Mamá</h3><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></summary>
+            <ul>
+              <li>Clavelitos con amor</li>
+              <li>Regalo de un hijo</li>
+              <li>A la sombra de mamá</li>
+              <li>Es mi madre</li>
+              <li>Madre son cinco letras</li>
+              <li>A esa mujer</li>
+              <li>Mamá vieja</li>
+              <li>Aunque no sea mayo</li>
+            </ul>
+          </details>
+          <details class="songs reveal">
+            <summary><h3>Papá</h3><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></summary>
+            <ul>
+              <li>Cuando quería ser grande</li>
+              <li>Mi viejo</li>
+              <li>El rey</li>
+              <li>Mi querido cascarrabias</li>
+            </ul>
+          </details>
+          <details class="songs reveal">
+            <summary><h3>Quince años</h3><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></summary>
+            <ul>
+              <li>Ha llegado un ángel</li>
+              <li>Quince primaveras</li>
+              <li>Mi niña bonita</li>
+              <li>Quinceañera llanera</li>
+              <li>Tus quince (Jhonny Rivera)</li>
+            </ul>
+          </details>
+          <details class="songs reveal">
+            <summary><h3>Amor</h3><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></summary>
+            <ul>
+              <li>Por mujeres como tú</li>
+              <li>Esclavo y amo</li>
+              <li>Cómo han pasado los años</li>
+              <li>Luz de luna</li>
+              <li>Serenata huasteca</li>
+              <li>Alma, corazón y vida</li>
+              <li>Contigo aprendí</li>
+              <li>Te amaré toda la vida</li>
+              <li>Un millón de primaveras</li>
+              <li>Bésame mucho</li>
+              <li>En tu pelo</li>
+              <li>Me gustas</li>
+              <li>Cielito lindo</li>
+              <li>A la antigüita</li>
+              <li>Sublime mujer</li>
+              <li>El amor más grande del planeta</li>
+              <li>Para siempre</li>
+              <li>Motivos</li>
+              <li>Si Dios me quita la vida</li>
+              <li>Triunfamos</li>
+              <li>Tengo un amante</li>
+            </ul>
+          </details>
+          <details class="songs reveal">
+            <summary><h3>General</h3><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></summary>
+            <ul>
+              <li>El camino de la vida</li>
+              <li>Los caminos de la vida</li>
+              <li>Acá entre nos</li>
+              <li>Ni plata ni nada</li>
+              <li>No me sé rajar</li>
+              <li>La malagueña</li>
+              <li>Es la mujer</li>
+              <li>El soltero feliz</li>
+              <li>Caballo de patas blancas</li>
+              <li>Mujeres divinas</li>
+              <li>Mátalas</li>
+              <li>En mi viejo San Juan</li>
+              <li>De los besos que te di</li>
+              <li>Caballo prieto azabache</li>
+              <li>Volver, volver</li>
+              <li>La diferencia</li>
+              <li>Camino al cielo</li>
+              <li>El ausente</li>
+              <li>La Bikina</li>
+              <li>Me voy a quitar de en medio</li>
+              <li>La ley del monte</li>
+            </ul>
+          </details>
+          <details class="songs reveal">
+            <summary><h3>Despedida</h3><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></summary>
+            <ul>
+              <li>Amor eterno</li>
+              <li>La barca de oro</li>
+              <li>Amigo</li>
+              <li>Nadie es eterno</li>
+              <li>Puño de tierra</li>
+              <li>Con la tierra encima</li>
+              <li>Dos días</li>
+              <li>Ni por mil puñados de oro</li>
+            </ul>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= GALERÍA ================= -->
+    <section class="section gallery" id="galeria" aria-labelledby="galeria-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Momentos</p>
+          <h2 class="section__title" id="galeria-title">Galería</h2>
+          <p class="section__lead">Toca una foto para verla en grande.</p>
+        </header>
+        <ul class="gallery__grid">
+          <li class="reveal"><button class="gallery__item gallery__item--wide" type="button" data-full="assets/mariachi2.jpeg">
+              <img src="assets/mariachi2.jpeg" alt="Mariachi Vergara de Oriente con sombreros blancos bordados e instrumentos" loading="lazy" decoding="async" /></button></li>
+          <li class="reveal"><button class="gallery__item" type="button" data-full="assets/foto1.JPEG">
+              <img src="assets/foto1.JPEG" alt="Serenata de Mariachi Vergara de Oriente en el Oriente Antioqueño" loading="lazy" decoding="async" /></button></li>
+          <li class="reveal"><button class="gallery__item" type="button" data-full="assets/foto2.JPEG">
+              <img src="assets/foto2.JPEG" alt="Mariachi Vergara de Oriente tocando en un evento social" loading="lazy" decoding="async" /></button></li>
+          <li class="reveal"><button class="gallery__item gallery__item--wide" type="button" data-full="assets/mariachi1.jpeg">
+              <img src="assets/mariachi1.jpeg" alt="Mariachi Vergara de Oriente con sombreros rojos en una plaza decorada con papel picado" loading="lazy" decoding="async" /></button></li>
+          <li class="reveal"><button class="gallery__item" type="button" data-full="assets/foto3.JPEG">
+              <img src="assets/foto3.JPEG" alt="Músicos de Mariachi Vergara de Oriente durante una presentación" loading="lazy" decoding="async" /></button></li>
+          <li class="reveal"><button class="gallery__item" type="button" data-full="assets/foto4.JPEG">
+              <img src="assets/foto4.JPEG" alt="Mariachi Vergara de Oriente amenizando una celebración" loading="lazy" decoding="async" /></button></li>
+          <li class="reveal"><button class="gallery__item gallery__item--wide" type="button" data-full="assets/mariachi6.jpeg">
+              <img src="assets/mariachi6.jpeg" alt="Integrantes de Mariachi Vergara de Oriente sosteniendo sus sombreros rojos" loading="lazy" decoding="async" /></button></li>
+          <li class="reveal"><button class="gallery__item" type="button" data-full="assets/foto%2022.JPEG">
+              <img src="assets/foto%2022.JPEG" alt="Mariachi Vergara de Oriente en una serenata nocturna" loading="lazy" decoding="async" /></button></li>
+          <li class="reveal"><button class="gallery__item" type="button" data-full="assets/mariachi7.jpeg">
+              <img src="assets/mariachi7.jpeg" alt="Mariachi Vergara de Oriente en un patio colonial iluminado con faroles" loading="lazy" decoding="async" /></button></li>
+        </ul>
+      </div>
+
+      <dialog class="lightbox" aria-label="Foto ampliada">
+        <img class="lightbox__img" src="" alt="" />
+        <button class="lightbox__btn lightbox__close" type="button" aria-label="Cerrar"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+        <button class="lightbox__btn lightbox__prev" type="button" aria-label="Foto anterior"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+        <button class="lightbox__btn lightbox__next" type="button" aria-label="Foto siguiente"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+      </dialog>
+    </section>
+
+    <!-- ================= VIDEOS ================= -->
+    <section class="section videos" id="videos" aria-labelledby="videos-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">En vivo</p>
+          <h2 class="section__title" id="videos-title">Nuestros videos</h2>
+          <p class="section__lead">Recomendaciones y lo mejor de nuestro repertorio.</p>
+        </header>
+        <ul class="videos__grid">
+          <li class="video reveal">
+            <video controls playsinline preload="metadata" aria-label="Video de Mariachi Vergara de Oriente 1">
+              <source src="assets/video1.mp4#t=0.5" type="video/mp4" />
+            </video>
+          </li>
+          <li class="video reveal">
+            <video controls playsinline preload="metadata" aria-label="Video de Mariachi Vergara de Oriente 2">
+              <source src="assets/video2.mp4#t=0.5" type="video/mp4" />
+            </video>
+          </li>
+          <li class="video reveal">
+            <video controls playsinline preload="metadata" aria-label="Video de Mariachi Vergara de Oriente 3">
+              <source src="assets/video3.mp4#t=0.5" type="video/mp4" />
+            </video>
+          </li>
+          <li class="video reveal">
+            <video controls playsinline preload="metadata" aria-label="Video de Mariachi Vergara de Oriente 4">
+              <source src="assets/video4.mp4#t=0.5" type="video/mp4" />
+            </video>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= LLAMADO A LA ACCIÓN ================= -->
+    <section class="section cta" aria-labelledby="cta-title">
+      <div class="container cta__box reveal">
+        <h2 class="section__title" id="cta-title">¿Tienes una fecha especial?</h2>
+        <p>Bodas, aniversarios, cumpleaños, despedidas, día de la madre, quince años, serenatas románticas y
+          homenajes.</p>
+        <a class="btn btn--gold"
+          href="https://wa.me/573196754109?text=Hola,%20quiero%20cotizar%20una%20serenata."
+          target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Cotizar por WhatsApp</a>
+      </div>
     </section>
   </main>
-  <footer>
-    <div class="container__footer">
-      <div class="box__footer">
-        <h2>Nosotros</h2>
-        <h4>Experiencia y Trayectoria:</h4>
-        <p>
-          Somos un mariachi con mas de 8 años de trayectoria en el oriente antioqueño, con músicos con décadas de
-          experiencia, prestos para honrar la música mexicana.
-        </p>
-        <p>
-        <h4>Sonido Profesional:</h4>
-        <p>
-          Todos nuestros instrumentos van amplificados para dar una experiencia más agradable al escucha.
-        </p>
-      </div>
-      <div class="box__footer">
-        <h2>Servicios</h2>
-        <h4>Fechas especiales</h4>
-        <ul>
+
+  <!-- ================= PIE DE PÁGINA ================= -->
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <section aria-labelledby="f-nosotros">
+        <h2 id="f-nosotros">Nosotros</h2>
+        <h3>Experiencia y trayectoria</h3>
+        <p>Somos un mariachi con más de 8 años de trayectoria en el Oriente Antioqueño, con músicos de décadas de
+          experiencia, prestos para honrar la música mexicana.</p>
+        <h3>Sonido profesional</h3>
+        <p>Todos nuestros instrumentos van amplificados para una experiencia más agradable.</p>
+      </section>
+      <section aria-labelledby="f-servicios">
+        <h2 id="f-servicios">Servicios</h2>
+        <ul class="footer__tags">
           <li>Bodas</li>
           <li>Aniversarios</li>
           <li>Cumpleaños</li>
           <li>Despedidas</li>
-          <li>Dia de la madre</li>
-          <li>15 Años</li>
-          <li>Serenatas Románticas</li>
+          <li>Día de la madre</li>
+          <li>15 años</li>
+          <li>Serenatas románticas</li>
           <li>Sepelios</li>
         </ul>
-
-      </div>
-      <div class="box__footer">
-        <h2>Contactos</h2>
-        <a class="facebook" href="https://www.facebook.com/henrya.vergaraz?sfnsn=scwspmo&mibextid=RUbZ1f">
-          <i class="fab fa-facebook"></i> Facebook</a>
-        <a class="instagram" href="https://www.instagram.com/mariachivergaradeo?igsh=MTFrajF2djljazAyNQ==">
-          <i class="fab fa-instagram"></i> Instagram</a>
-        <p>
-          <i class="fas fa-map-marker-alt"></i> Marinilla,Antioquia,Colombia
-        </p>
-        <p><i class="fas fa-phone"></i> +57 3196754109</p>
-        <p><i class="fas fa-envelope"></i> mariachivergaradeoriente@mariachis.com</p>
-      </div>
+      </section>
+      <section aria-labelledby="f-contacto">
+        <h2 id="f-contacto">Contacto</h2>
+        <address>
+          <p><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Marinilla, Antioquia, Colombia</p>
+          <p><i class="fa-solid fa-phone" aria-hidden="true"></i> <a href="tel:+573196754109">+57 319 675 4109</a></p>
+          <p><i class="fa-solid fa-envelope" aria-hidden="true"></i> <a
+              href="mailto:mariachivergaradeoriente@mariachis.com">mariachivergaradeoriente@mariachis.com</a></p>
+        </address>
+        <ul class="footer__social">
+          <li><a href="https://www.instagram.com/mariachivergaradeo/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.facebook.com/henrya.vergaraz" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.tiktok.com/@mariachi.vergara" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok" aria-hidden="true"></i></a></li>
+          <li><a href="https://wa.me/573196754109" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a></li>
+        </ul>
+      </section>
     </div>
-    <div class="box__copyright">
-      <hr />
-      <p>Todos los derechos reservados.</p>
-      <b>&copy; 2024 wveimar Mamian 3014966662.</b>
+    <div class="container footer__bottom">
+      <p>&copy; <span data-year>2026</span> Mariachi Vergara de Oriente. Todos los derechos reservados.</p>
+      <p>Desarrollado por Wveimar Mamian · 301 496 6662</p>
     </div>
   </footer>
 
+  <!-- Botón flotante de WhatsApp -->
+  <a class="wa-float"
+    href="https://wa.me/573196754109?text=Hola,%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n."
+    target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <script src="js/main.js" defer></script>
 </body>
 
 </html>

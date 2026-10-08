@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wveimar.github.io/mariachivergaradeoriente/sitemap.xml
